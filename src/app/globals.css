@@ -40,3 +40,40 @@ a {
     color-scheme: dark;
   }
 }
+
+
+
+/* CARD HOVER */
+.card-hover {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0, 175, 0, 0.15);
+}
+
+.card-img-top {
+  display: block;
+  margin: 0 auto;
+  max-height: 200px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.card-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.btn-dark {
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.btn-dark:hover {
+  background-color: #333;
+  transform: translateY(-2px);
+}
